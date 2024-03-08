@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.delete-task-wrapper {
+  width: 500px;
+  background: #232323;
+  height: auto;
+  border-radius: 6px;
+  .delete-task-content {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    .delete-task-header {
+      margin-bottom: 20px;
+      p {
+        font-family: Nunito;
+        color: #ddd;
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+    .delete-task-btn {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      button {
+        width: 120px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        outline: none;
+        border: 2px solid #333;
+        font-family: Nunito;
+        color: #ddd;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 6px;
+
+        cursor: pointer;
+        &:disabled {
+          opacity: 0.7;
+        }
+        &:nth-child(2) {
+          background: transparent;
+          border: 2px solid #000;
+        }
+      }
+    }
+  }
+}

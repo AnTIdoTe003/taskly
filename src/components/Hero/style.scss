@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero-wrapper {
+  width: 100%;
+  background: url("https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?cs=srgb&dl=pexels-codioful-%28formerly-gradienta%29-7130560.jpg&fm=jpg");
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .hero-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    h1 {
+      font-family: Nunito;
+      color: white;
+      font-size: 64px;
+      font-weight: 700;
+    }
+    h3 {
+      font-family: Nunito;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      width: 700px;
+      text-align: center;
+    }
+    .hero-btns {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      button {
+        background: linear-gradient(
+          90deg,
+          rgba(155, 35, 181, 0.8407738095238095) 0%,
+          rgba(9, 9, 121, 0.9332107843137255) 48%,
+          rgba(145, 0, 255, 0.3477766106442577) 100%
+        );
+        border: none;
+        outline: none;
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        font-family: Nunito;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+      }
+    }
+    p {
+      font-family: Nunito;
+      font-weight: 600;
+      font-size: 14px;
+      color: white;
+    }
+  }
+}

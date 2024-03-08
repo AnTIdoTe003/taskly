@@ -1,0 +1,27 @@
+.dashboard-wrapper {
+  width: 100%;
+  background: #232323;
+  height: 100vh;
+  .dashboard-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+    .dashboard-content {
+      width: 100%;
+      display: flex;
+      flex: 1;
+      height: 100%;
+      padding: 20px;
+      gap: 20px;
+      .dashboard-left {
+        flex: 0.33;
+        height: 100%;
+      }
+      .dashboard-right {
+        flex: 0.66;
+        height: 100%;
+      }
+    }
+  }
+}
